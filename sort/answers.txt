@@ -1,0 +1,33 @@
+sort1 uses: Bubble sort
+
+How do you know?: it takes most time in worst case but least time in best case so this is clearly bubble sort
+//here I will write the run time for all the different random and sorted files for sort1
+
+#random 5000        #10000          #50000
+.ø67s               .223            5.4
+.ø35s               .125            4.99
+.026s               .063            0.263
+
+#sorted 5000     #10000           #50k
+.041             0.072            0.519
+.004             0.000            0.030
+.024             0.052            0.237
+
+#reversed 5000   #10000           #50k
+.076             0.259            4.898
+.039             0.190
+.029             0.056
+
+sort2 uses: Merge sort
+
+How do you know?: it is clear it takes shortest time in worst case and same time in best case so this is clearly merge sort
+random 50000 0.479
+sorted 50000 0.546
+
+
+sort3 uses: Selection sort
+
+How do you know?: It take same time in best and worst case and is not the shortest possible time as sort 2 does the job in merely 1/5 of the time so this is clearly selection sort
+random 50000 2.2s
+sorted 50000 2.11
+

@@ -1,0 +1,18 @@
+{%extends "layout.html" %}
+
+{% block body %}
+
+<!--instead of using method == get we will mehtod - post bcause there can be some passwords in form which you dont want to include in the url itself-->
+    <h1>Register</h1>
+    <form action = "/register" method ="post">
+        <input autocomplete ="off" autofocus name = "name" placeholder = "Name" type = "text" >
+        <select name = "sport">
+            <option disabled value = "" selected>sport</option>
+            <option>Basketball</option>
+            <option>soccer</option>
+            <option>Ultimate Rugby</option>
+        </select>
+        <button type = "submit">Register</button>
+    </form>
+
+{% endblock %}

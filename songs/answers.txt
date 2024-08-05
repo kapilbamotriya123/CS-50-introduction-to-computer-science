@@ -1,0 +1,11 @@
+well if have data of top 100 songs from the last year I will calculate their aura not just by averaging tthe values
+and giving a rating(which at the end we will have to but by a different way) I would have developed a function which
+will take these values of this songs and hom many minutes it has been played which will give give a pretty descent idea
+rather than just calculating average
+
+
+2. I think then I will give more emphasise on the top songs data even more than their listening time also I will check their top artists and then
+will check specifically their songs and then calculate the data from the function that I have mentioned above and do it for top 5 or more artists I
+think that will give a pretty decent idea what we were planning to do
+
+
